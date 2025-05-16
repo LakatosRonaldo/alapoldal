@@ -1,0 +1,25 @@
+.logo {
+  width: 15%;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* konténer */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+}
