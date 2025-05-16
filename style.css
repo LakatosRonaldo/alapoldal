@@ -1,7 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .logo {
   width: 15%;
 }
+
 body {
+  width: 100dvw;
+  height: 100dvh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /* konténer */
@@ -10,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
 }
 
 nav {
@@ -22,4 +32,19 @@ a {
 }
 footer {
   text-align: center;
+}
+main {
+  /* The image used */
+  background-image: url("Roman_Empire_Trajan_117AD.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
 }
